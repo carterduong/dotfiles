@@ -6,6 +6,15 @@ bindkey -v
 # aliases
 alias c='clear'
 alias dev='cd ~/Development'
+alias ls='ls -hFG'
+
+alias gs='git status'
+
+alias editzsh='vim ~/.zshrc'
+alias reload='source ~/.zshrc && echo -e ".zshrc reloaded"'
+
+alias ..='cd ..'
+alias -- -='cd -'
 
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
