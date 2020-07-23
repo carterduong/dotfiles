@@ -1,12 +1,17 @@
+" Display
+" ---------------
 syntax on
+syntax enable
 
 " Indentation
+" ---------------
 set expandtab
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 
 " Line Numbers
+" ---------------
 set number relativenumber
 set autoindent
 set linebreak
