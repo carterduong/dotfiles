@@ -1,6 +1,6 @@
 PROMPT=$'\n'"%F{yellow}%1~"$'\n'"%F{green}> %f"
 
-# vim cursor binding for command line
+# vim key bindings
 bindkey -v
 
 # aliases
@@ -9,11 +9,13 @@ alias dev='cd ~/Development'
 alias ls='ls -hFG'
 
 alias gs='git status'
+alias gp='git push'
 
 alias editzsh='vim ~/.zshrc'
 alias reload='source ~/.zshrc && echo -e ".zshrc reloaded"'
 
 alias ..='cd ..'
+alias ~='cd ~'
 alias -- -='cd -'
 
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
