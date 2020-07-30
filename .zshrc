@@ -15,6 +15,7 @@ alias editzsh='vim ~/.zshrc'
 alias reload='source ~/.zshrc && echo -e ".zshrc reloaded"'
 
 alias ..='cd ..'
+alias ...='cd ../../'
 alias ~='cd ~'
 alias -- -='cd -'
 
