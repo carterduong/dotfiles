@@ -7,6 +7,8 @@ bindkey -v
 alias c='clear'
 alias dev='cd ~/Development'
 alias ls='ls -hFG'
+alias ll='ls -hlFG'
+alias lla='ls -ahlFG'
 
 alias gs='git status'
 alias gp='git push'
