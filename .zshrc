@@ -10,8 +10,12 @@ alias ls='ls -hFG'
 alias ll='ls -hlFG'
 alias lla='ls -ahlFG'
 
+alias g='git'
 alias gs='git status'
-alias gp='git push'
+alias gps='git push'
+alias gpl='git pull'
+alias gc='git checkout'
+alias gaa='git add -A'
 
 alias editzsh='vim ~/.zshrc'
 alias reload='source ~/.zshrc && echo -e ".zshrc reloaded"'
